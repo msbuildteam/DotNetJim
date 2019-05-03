@@ -7,5 +7,4 @@ RUN dotnet publish -c Release -o out
 
 EXPOSE 8080
 
-
 ENTRYPOINT ["dotnet", "./out/dotnetcoreapp.dll"]
